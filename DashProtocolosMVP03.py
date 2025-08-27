@@ -42,12 +42,12 @@ def ejemplo_df():
     return pd.DataFrame({
         "Protocolo": ["Manglar","Manglar","Manglar","Páramo","Páramo","Seagrass","Seagrass"],
         "Capítulo": ["Introducción y alcance","Metodología de muestreo","Modelo de carbono","Introducción y alcance","Metodología de muestreo","Introducción y alcance","Inventario de datos"],
-        "Avance (%)": [85,60,40,70,35,55,20],
+        "Avance (%)": [0,2,5,10,15,19,20],
         "Comentario": [
-            "Revisión con el equipo jurídico completada.",
-            "Falta incorporar anexo de QA/QC.",
-            "Pendiente calibración con inventarios 2023.",
+            "Revisión con el equipo IDEAM completada.",
             "Aprobado por comité técnico.",
+            "Revisión con el equipo IDEAM en curso.",
+            "Revisión interna en curso.",
             "Revisión con proveedor en curso.",
             "Listo para validación externa.",
             "Integración de bases de datos pendiente."
